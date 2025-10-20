@@ -44,7 +44,8 @@ export default async function handler(req, res) {
         created: false,
         username: key,
         publicKey: data.publicKey,
-        privateKey: data.privateKey // ⚠️ dev only
+        privateKey: data.privateKey, // ⚠️ dev only
+        createdAt: data.createdAt
       });
     }
 
