@@ -1,0 +1,12 @@
+{
+  "name": "wallet-api-firebase",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "firebase-admin": "^13.5.0"
+  }
+}
